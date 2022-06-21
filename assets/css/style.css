@@ -1,4 +1,27 @@
-.img-logo{
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.img-logo {
     height: 2rem;
     width: 2rem;
+}
+
+.navbar {
+    background: transparent;
+    border-color: transparent;
+}
+
+.icon-section{
+    text-align: center;
+}
+
+.icon-section .linea{
+    color: #ffffff;
+}
+
+.fa-solid{
+    text-align: center;
+    height: 1rem;
+    width: 5rem;
 }
