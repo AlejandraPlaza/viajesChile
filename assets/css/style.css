@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -12,16 +12,36 @@ body{
     border-color: transparent;
 }
 
-.icon-section{
+.icon-section {
     text-align: center;
 }
 
-.icon-section .linea{
+.icon-section .linea {
     color: #ffffff;
 }
 
-.fa-solid{
+.fa-solid {
     text-align: center;
     height: 1rem;
     width: 5rem;
+}
+
+.card-section {
+    text-align: center;
+}
+
+.card-section .linea {
+    color: #ffffff;
+}
+
+#card-img{
+    height: 9rem;
+}
+
+.form-section{
+    text-align: center;
+}
+
+.form-section .linea{
+    color: #ffffff;
 }
