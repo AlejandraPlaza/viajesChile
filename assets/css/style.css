@@ -2,14 +2,22 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .img-logo {
     height: 2rem;
     width: 2rem;
 }
 
-.navbar {
-    background: transparent;
-    border-color: transparent;
+.header {
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header .navbar{
+    background-color: transparent !important;
 }
 
 .icon-section {
@@ -45,3 +53,4 @@ body {
 .form-section .linea{
     color: #ffffff;
 }
+
