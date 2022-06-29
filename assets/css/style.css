@@ -3,7 +3,7 @@ body {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: auto !important;
 }
 
 .img-logo {
@@ -11,12 +11,7 @@ html {
     width: 2rem;
 }
 
-.header {
-    background-size: cover;
-    min-height: 100vh;
-}
-
-.header .navbar{
+.navbar {
     background-color: transparent !important;
 }
 
@@ -42,15 +37,14 @@ html {
     color: #ffffff;
 }
 
-#card-img{
+#card-img {
     height: 9rem;
 }
 
-.form-section{
+.form-section {
     text-align: center;
 }
 
-.form-section .linea{
+.form-section .linea {
     color: #ffffff;
 }
-

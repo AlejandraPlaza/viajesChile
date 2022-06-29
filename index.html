@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="assets/img/favicon-16x16.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <!-- Bootstrap versión 5.1.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Viajes Chile</title>
@@ -20,35 +21,40 @@
 <body>
     <!-- NavBar Bootstrap -->
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light shadow-5-strong">
-            <div class="container">
-                <img class="img-logo" src="assets/img/viajes.svg" alt="Logo Viajes Chile">
-                <a class="navbar-brand" href="#">Viajes Chile</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                </div>
-        </nav>
 
-        <!-- Carrusel Bootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <img class="img-logo" src="assets/img/viajes.svg" alt="Logo Viajes Chile">
+            <a class="navbar-brand" href="#">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carrusel">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destacados">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+
+    <!-- Carrusel Bootstrap-->
+
+
+    <section id="carrusel">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" class="fixed-top">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -72,22 +78,24 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </header>
+    </section>
+
 
 
 
     <!-- Icons Section -->
 
-    <section class="bg-dark">
+    <section id="quienes-somos" class="bg-dark col-4 col-sm-12 d-none d-sm-block">
         <div class="icon-section pt-5 pb-5">
-            <h4 id="quienessomos" class="text-light">¿QUIÉNES SOMOS?</h4>
+            <h4 class="text-light">¿QUIÉNES SOMOS?</h4>
 
             <hr class="container linea mt-4">
         </div>
 
         <div class="row container mx-auto">
-            <div class="col-4"  data-bs-toggle="tooltip" data-bs-placement="top" title="Nuestra Historia">
-                
+            <div class="col-4 col-sm-4 d-none d-sm-block" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Nuestra Historia">
+
                 <i class="fa-solid fa-plane bg-info text-light fs-4 h-auto w-100"></i>
                 <p class="text-light fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem
                     nobis iusto consequuntur ad aspernatur aliquid hic numquam ratione, a earum vitae ex, accusantium
@@ -101,7 +109,8 @@
 
             </div>
 
-            <div class="col-4" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Disfruta paisajes únicos">
+            <div class="col-4 col-sm-4 d-none d-sm-block" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Disfruta paisajes únicos">
                 <p class="text-light fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
                     mollitia provident et officiis vitae? Temporibus, maiores debitis nihil pariatur libero, reiciendis
                     nam ipsam iure laudantium magni facere et eveniet autem!
@@ -114,7 +123,8 @@
                 <i class="fa-solid fa-mountain bg-info text-light fs-4 h-auto w-100"></i>
             </div>
 
-            <div class="col-4" data-bs-toggle="tooltip" data-bs-placement="top" title="Conoce nuestras rutas guiadas">
+            <div class="col-4 col-sm-4 d-none d-sm-block" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Conoce nuestras rutas guiadas">
                 <i class="fa-solid fa-route bg-info text-light fs-4 h-auto w-100"></i>
                 <p class="text-light fw-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam nostrum
                     facilis molestias quibusdam cumque vel omnis suscipit qui, culpa et nulla hic, soluta alias,
@@ -130,16 +140,16 @@
     </section>
 
     <!--  Card Section Boostrap -->
-    <section class="bg-dark">
+    <section id="destacados" class="bg-dark">
 
         <div class="card-section pt-5 pb-5">
-            <h4 id="destacados" class="text-light">DESTACADOS</h4>
+            <h4 class="text-light">DESTACADOS</h4>
             <hr class="container linea mt-4">
         </div>
 
 
         <div class="row container mx-auto">
-            <div class="col-3">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <div class="card" style="width: 18rem;">
                     <img id="card-img" src="assets/img/card1.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-info text-light">
@@ -150,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <div class="card" style="width: 18rem;">
                     <img id="card-img" src="assets/img/card2.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-info text-light">
@@ -161,7 +171,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <div class="card" style="width: 18rem;">
                     <img id="card-img" src="assets/img/card3.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-info text-light">
@@ -172,7 +182,7 @@
                 </div>
             </div>
 
-            <div class="col-3">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <div class="card" style="width: 18rem;">
                     <img id="card-img" src="assets/img/card4.jpg" class="card-img-top" alt="...">
                     <div class="card-body bg-info text-light">
@@ -186,9 +196,9 @@
     </section>
 
     <!-- Formulario Bootstrap -->
-    <section class="bg-dark pb-4">
+    <section id="contacto" class="bg-dark pb-4">
         <div class="form-section pt-5 pb-5">
-            <h4 id="contacto" class="quienes-somos text-light">CONTACTO</h4>
+            <h4 class="quienes-somos text-light">CONTACTO</h4>
             <hr class="container linea mt-4">
         </div>
 
@@ -215,7 +225,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-info text-light p-5">
+    <footer id="piedepag" class="bg-info text-light p-5">
 
         <div class="row">
 
