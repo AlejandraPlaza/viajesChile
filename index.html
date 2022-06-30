@@ -219,45 +219,60 @@
             </div>
 
             <div class="container mt-3 mb-4">
-                <button class="btn btn-info text-light">Enviar</button>
+                <button class="btn btn-info text-light" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Enviar</button>
+            </div>
+
+            <!--  Modal -->
+            <div class="modal fade" id="exampleModal">
+                <div class="modal-dialog">
+                    <div class="modal-content p-5">
+                        Tu información ha sido enviada exitosamente. Te haremos llegar un correo de confirmación.
+                    </div>
+                </div>
             </div>
         </form>
     </section>
 
-    <!-- Footer -->
-    <footer id="piedepag" class="bg-info text-light p-5">
+    <footer id="piedepag" class="p-4 bg-info">
 
-        <div class="row">
-
-            <div class="col-sm-12 col-md-6">
-                <h3 class="display-7">VIAJES CHILE</h3>
+        <div class="row container">
+            <div class="col-sm-12 col-md-4">
+                <h3 class="text-light text-center ms-5">Viajes Chile</h3>
             </div>
 
-            <div class="col-sm-12 col-md-6">
-                <div class="display-5">
+
+            <div class="col-sm-3 col-md-2">
+                <div class="fs-4 text-light text-center">
+                    <a href="https://github.com/"></a>
                     <i class="fa-brands fa-github"></i>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6">
-                <div class="display-5">
+            <div class="col-sm-3 col-md-2">
+                <div class="fs-4 text-light text-center">
                     <i class="fa-brands fa-linkedin"></i>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6">
-                <div class="display-5">
+            <div class="col-sm-3 col-md-2">
+                <div class="fs-4 text-light text-center ">
                     <i class="fa-brands fa-twitter-square"></i>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6">
-                <div class="display-5">
+            <div class="col-sm-3 col-md-2">
+                <div class="fs-4 text-light text-center">
                     <i class="fa-brands fa-facebook-square"></i>
                 </div>
+
             </div>
+
         </div>
+
     </footer>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
