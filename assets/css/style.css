@@ -11,9 +11,11 @@ html {
     width: 2rem;
 }
 
-.navbar {
+
+#header .navbar {
     background-color: transparent !important;
 }
+
 
 .icon-section {
     text-align: center;
@@ -25,8 +27,6 @@ html {
 
 .fa-solid {
     text-align: center;
-    height: 1rem;
-    width: 5rem;
 }
 
 .card-section {
@@ -47,4 +47,8 @@ html {
 
 .form-section .linea {
     color: #ffffff;
+}
+
+#piedepag {
+margin: 0%;
 }
