@@ -49,3 +49,11 @@ html {
     color: #ffffff;
 }
 
+#footer {
+    background-color: #0dcaf0;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
